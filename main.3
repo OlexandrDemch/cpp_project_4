@@ -2,18 +2,14 @@
 
 int main() {
     int start, end, sum = 0;
-
-    std::cout << "Enter start of range: ";
+    std::cout << "Enter the start of the range: ";
     std::cin >> start;
-
-    std::cout << "Enter end of range: ";
+    std::cout << "Enter the end of the range: ";
     std::cin >> end;
-
     for (int i = start; i <= end; i++) {
         sum += i;
     }
 
-    std::cout << "Sum of numbers in the range " << start << " to " << end << " is " << sum << std::endl;
-
+    std::cout << "The sum of all numbers in the range [" << start << ", " << end << "] is " << sum << std::endl;
     return 0;
 }
